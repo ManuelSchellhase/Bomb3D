@@ -28,8 +28,8 @@ model-viewer {
 }
 
 .button-hotspot {
-  width: 70px;
-  height: 70px;
+  width: 150px;
+  height: 150px;
   display: block;
   padding: 0;
   border-radius: 50%;
