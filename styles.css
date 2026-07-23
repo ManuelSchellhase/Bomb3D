@@ -27,13 +27,20 @@ model-viewer {
   background-color: transparent;
 }
 
-.hotspot-button {
-  width: 35px;
-  height: 35px;
+.button-hotspot {
+  width: 70px;
+  height: 70px;
   display: block;
+  padding: 0;
   border-radius: 50%;
-  background: transparent;
+  background: lime;
+  color: black;
+  border: 5px solid white;
   cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10;
 }
 
 .button-hotspot:hover {
