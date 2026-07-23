@@ -28,8 +28,8 @@ model-viewer {
 }
 
 .hotspot-button {
-  width: 20vw;
-  height: 20vh;
+  width: 35px;
+  height: 35px;
   display: block;
   border-radius: 50%;
   background: transparent;
@@ -37,5 +37,5 @@ model-viewer {
 }
 
 .button-hotspot:hover {
-  outline: 2vw solid white;
+  outline: 10px solid white;
 }
