@@ -19,11 +19,8 @@
     <script>
       const wall = document.getElementById('textWall');
       const sentence = "DON'T PRESS THE BUTTON!";
-      const rowHeight = 150;
 
-      const rows = Math.ceil(window .innerHeight / rowHeight);
-
-      for (let i = 0; i < rows; i++) {
+      for (let i = 0; i < 20; i++) {
         const row = document.createElement('div');
         row.className = "row";
         row.textContent = sentence;
