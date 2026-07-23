@@ -26,9 +26,7 @@
       for (let i = 0; i < rows; i++) {
         const row = document.createElement('div');
         row.className = "row";
-        while (row.textContent.length < 50) {
-          row.textContent += sentence;
-        }
+        row.textContent = sentence;
         wall.appendChild(row);
       }
     </script>
