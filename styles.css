@@ -30,18 +30,8 @@ model-viewer {
   display: block;
   padding: 0;
   border-radius: 50%;
-  background: lime;
-  color: black;
-  border: 5px solid white;
+  background: transparent;
   cursor: pointer;
-  font-size: 15px;
-  font-weight: bold;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.button-hotspot:hover {
-  outline: 10px solid white;
 }
 
 .text-wall {
