@@ -30,9 +30,16 @@
     </script>
 
     <script>
+      const sound = new Audio("./sound.mp3");
+
       document.getElementById('redbutton').addEventListener("click", () => {
-        window.location.href = "photo.html";
+        window.open('photo.html', '_blank');
+        sound.currentTime = 0;
+        sound.play().catch(error => {
+        console.error("The sound could not be played:", error);
+        });
       });
     </script>
+
   </body>
 </html>
